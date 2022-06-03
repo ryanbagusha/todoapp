@@ -79,7 +79,7 @@ var_dump($todos);
     </form>
 
     <ul>
-        <!-- mengecek apakah $todo memiliki data -->
+        <!-- mengecek apakah $todos memiliki data -->
         <?php if ($todos != NULL): ?>
             <!-- menampilkan data -->
             <?php foreach ($todos as $key => $value): ?>
